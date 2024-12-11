@@ -104,10 +104,58 @@ def find_matching_opcodes(csv_path, a_value, imm_value, aq_rm):
         print(f"An error occurred: {e}")
         return []
 
+def modify_and_save_file(file_path, line_num, opcode,f_path_save):
+    """
+    Modifies the .s file by replacing the matched opcode with the triplet values,
+    and saves the modified content to a new file.
+
+    Args:
+        file_path (str): Path to the original .s file.
+        line_num (int): The line number to modify.
+        a_value (str): The "number_regs" value to replace the opcode.
+        imm_value (str): The "imm/shamt" value to replace the opcode.
+        aq_rm (str): The "aqrl/rm" value to replace the opcode.
+
+    Returns:
+        str: The path to the saved modified file.
+    """
+    try:
+        # Read the .s file
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
+
+        # Modify the specific line by replacing the opcode with the triplet
+        if line_num <= 0 or line_num > len(lines):
+            print("Error: line_num is out of range")
+            return None
+
+        # Get the line and replace the first part (opcode) with the triplet
+        line = lines[line_num - 1].strip()
+        first_part = line.split()[0] if line.split() else None
+
+        if first_part:
+            modified_line = f"{opcode} " + " ".join(line.split()[1:])
+            lines[line_num - 1] = modified_line + "\n"
+
+        # Save the modified file with a new name
+        new_file_path = f_path_save.replace(".s", f"_{line_num}_{opcode}.s")
+        with open(new_file_path, 'w') as file:
+            file.writelines(lines)
+
+        return new_file_path
+
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return None
+
+
 if __name__ == "__main__":
     # Replace 'snippet.s' and 'opcodes.csv' with your file paths
     s_file_path = "snippet.s"
     csv_file_path = "opcodes.csv"
+    file_path="snippets/snippet.s"
 
     match = read_and_search_assembly(s_file_path, csv_file_path, line_num)
     
@@ -121,6 +169,11 @@ if __name__ == "__main__":
             print(f"Opcodes matching the triplet ({a}, {imm}, {aq}):")
             for opcode in matching_opcodes:
                 print(f"- {opcode}")
+            
+                # Replace the opcode with the triplet and save the modified file
+                new_file_path = modify_and_save_file(s_file_path, line_num,opcode,file_path)
+                if new_file_path:
+                    print(f"File saved as {new_file_path}")
         else:
             print(f"No opcodes found matching the triplet ({a}, {imm}, {aq})")
     else:
