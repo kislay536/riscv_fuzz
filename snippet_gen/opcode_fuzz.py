@@ -138,7 +138,7 @@ def modify_and_save_file(file_path, line_num, opcode,f_path_save):
             lines[line_num - 1] = modified_line + "\n"
 
         # Save the modified file with a new name
-        new_file_path = f_path_save.replace(".s", f"_{line_num}_{opcode}.s")
+        new_file_path = f_path_save.replace(".s", f"{line_num}_{opcode}.s")
         with open(new_file_path, 'w') as file:
             file.writelines(lines)
 
@@ -155,7 +155,7 @@ if __name__ == "__main__":
     # Replace 'snippet.s' and 'opcodes.csv' with your file paths
     s_file_path = "snippet.s"
     csv_file_path = "opcodes.csv"
-    file_path="snippets/snippet.s"
+    file_path="snippets/.s"
 
     match = read_and_search_assembly(s_file_path, csv_file_path, line_num)
     
