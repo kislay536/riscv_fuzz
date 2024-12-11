@@ -1,4 +1,13 @@
 import pandas as pd
+import sys
+
+# sys.argv contains command-line arguments
+# sys.argv[0] is the script name, sys.argv[1] is the first argument
+if len(sys.argv) > 1:
+    line_num = sys.argv[1]  # Get the first argument passed
+    print("Input received:", line_num)
+else:
+    print("No input received")
 
 def read_and_search_assembly(file_path, csv_path):
     """
@@ -53,7 +62,7 @@ def read_and_search_assembly(file_path, csv_path):
 
 if __name__ == "__main__":
     # Replace 'example.s' and 'data.csv' with your file paths
-    s_file_path = "spectre/snippet.s"
+    s_file_path = "snippet.s"
     csv_file_path = "opcodes.csv"
 
     matches = read_and_search_assembly(s_file_path, csv_file_path)
