@@ -1,0 +1,53 @@
+From 02062042955d396b083ed569034388e080980481 Mon Sep 17 00:00:00 2001
+From: "Tommaso Marinelli (imec)" <Tommaso.Marinelli@imec.be>
+Date: Thu, 21 Nov 2024 18:40:31 +0100
+Subject: [PATCH] Redirect prints to UART
+
+---
+ common/syscalls.c | 16 ++++++++++++++--
+ 1 file changed, 14 insertions(+), 2 deletions(-)
+
+diff --git a/common/syscalls.c b/common/syscalls.c
+index 0a7d6b7..a17883a 100644
+--- a/common/syscalls.c
++++ b/common/syscalls.c
+@@ -15,6 +15,16 @@
+ extern volatile uint64_t tohost;
+ extern volatile uint64_t fromhost;
+ 
++volatile unsigned int *const UART0DR = (unsigned int *)0x10000000;
++
++void uart_print(const char *s, const int len) {
++    int i = 0;
++    while (*s != '\0' && i++ < len) {
++        *UART0DR = (unsigned int)(*s);
++        s++;
++    }
++}
++
+ static uintptr_t syscall(uintptr_t which, uint64_t arg0, uint64_t arg1, uint64_t arg2)
+ {
+   volatile uint64_t magic_mem[8] __attribute__((aligned(64)));
+@@ -76,7 +86,8 @@ void abort()
+ 
+ void printstr(const char* s)
+ {
+-  syscall(SYS_write, 1, (uintptr_t)s, strlen(s));
++  //syscall(SYS_write, 1, (uintptr_t)s, strlen(s));
++  uart_print(s, strlen(s));
+ }
+ 
+ void __attribute__((weak)) thread_entry(int cid, int nc)
+@@ -133,7 +144,8 @@ int putchar(int ch)
+ 
+   if (ch == '\n' || buflen == sizeof(buf))
+   {
+-    syscall(SYS_write, 1, (uintptr_t)buf, buflen);
++    //syscall(SYS_write, 1, (uintptr_t)buf, buflen);
++    uart_print(buf, buflen);
+     buflen = 0;
+   }
+ 
+-- 
+2.43.0
+
