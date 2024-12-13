@@ -66,9 +66,16 @@ void setStats(int enable)
 void __attribute__((noreturn)) tohost_exit(uintptr_t code)
 {
   tohost = (code << 1) | 1;
-  //while (1);
+  
+  // Simple delay loop for approximately 2 seconds
+  volatile uint64_t i, delay_cycles = 160000; // Adjust based on your system clock
+  for (i = 0; i < delay_cycles; i++)
+    __asm__ __volatile__ ("nop");
+
   __asm__ __volatile__ ("li a1, 0; li a0, 0; .4byte  0x7b | (0x21 << 25);" : : : "a1", "a0");
+  // while (1); // Ensures noreturn semantics, though unnecessary with assembly after delay
 }
+
 
 uintptr_t __attribute__((weak)) handle_trap(uintptr_t cause, uintptr_t epc, uintptr_t regs[32])
 {
