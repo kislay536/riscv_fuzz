@@ -1,6 +1,0 @@
-name,simTicks,branchPred.BTBHitRatio,btb.mispredict::total,cpu.numCycles,cpu.cpi
-1_addi_s.s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-1_addiw_s.s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-1_andi_s.s,,,,,
-1_beq_s.s,,,,,
-1_bge_s.s,,,,,

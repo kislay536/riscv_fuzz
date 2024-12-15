@@ -76,7 +76,7 @@ print:
 sim:
 	@for binary in $(wildcard $(BINARIES)/*); do \
 		echo "Running simulation for $$binary..."; \
-		timeout 150s ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel $$binary --bare --cpu-type=O3CPU --caches --l2cache; \
+		timeout 30s ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel $$binary --bare --cpu-type=O3CPU --caches --l2cache; \
 		if [ $$? -eq 124 ]; then \
 			echo "Timeout occurred for $$binary"; \
 		fi; \
@@ -92,6 +92,16 @@ connect:
 		./../gem5/util/term/m5term localhost 3456; \
 		sleep 1; \
 	done
+
+start:
+	@echo "Starting infinite loop. Use Ctrl+C to stop."
+	file=$(find $(riscv)/riscv_fuzz/snippet_gen/binaries/ -type f | shuf -n 1) && filename=$(basename "$(file)") && ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel $(file) --bare --cpu-type=O3CPU --caches --l2cache; \
+	@while true; do \
+		echo "Running the Simulation..."; \
+		timeout 30s python3 ./snippet_gen/stats_reader.py $(filename) && rm $(file) && file=$(find $(riscv)/riscv_fuzz/snippet_gen/binaries/ -type f | shuf -n 1) && filename=$(basename "$(file)") && ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel $(file) --bare --cpu-type=O3CPU --caches --l2cache; \
+		sleep 1; \
+	done
+	
 
 git:
 	@if [ -z "$(commit)" ]; then \
