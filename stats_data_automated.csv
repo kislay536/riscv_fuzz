@@ -1,75 +1,75 @@
-name,simTicks,branchPred.BTBHitRatio,btb.mispredict::total,cpu.numCycles,cpu.cpi
-1_addi_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-1_addiw_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-1_andi_s,,,,,
-1_beq_s,,,,,
-1_bge_s,,,,,
-1_bgeu_s,,,,,
-1_blt_s,,,,,
-1_bltu_s,,,,,
-1_bne_s,,,,,
-1_jalr_s,,,,,
-1_ori_s,1922340000.0,0.549668,445.0,3844682.0,0.666317
-1_slti_s,,,,,
-1_sltiu_s,,,,,
-1_xori_s,1922340000.0,0.549668,445.0,3844682.0,0.666317
-2_slli_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-2_slliw_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-2_srai_s,1907433000.0,0.54663,316.0,3814868.0,0.665487
-2_sraiw_s,1907433000.0,0.54663,316.0,3814868.0,0.665487
-2_srli_s,1907433000.0,0.54663,316.0,3814868.0,0.665487
-2_srliw_s,1907433000.0,0.54663,316.0,3814868.0,0.665487
-3_fcvt_d_l_s,,,,,
-3_fcvt_d_lu_s,,,,,
-3_fcvt_d_w_s,,,,,
-3_fcvt_d_wu_s,,,,,
-3_fcvt_s_l_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-3_fcvt_s_lu_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-3_fcvt_s_wu_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-4_fcvt_d_l_s,,,,,
-4_fcvt_d_lu_s,,,,,
-4_fcvt_d_w_s,,,,,
-4_fcvt_d_wu_s,,,,,
-4_fcvt_s_l_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-4_fcvt_s_lu_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-4_fcvt_s_wu_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-5_fadd_d_s,,,,,
-5_fadd_s_s,368831500.0,0.954995,70.0,737665.0,0.626584
-5_fdiv_d_s,,,,,
-5_fdiv_s_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-5_fmul_d_s,,,,,
-5_fmul_s_s,,,,,
-5_fsub_d_s,,,,,
-5_fsub_s_s,1911853000.0,0.549586,351.0,3823708.0,0.662531
-6_fadd_d_s,,,,,
-6_fadd_s_s,368831500.0,0.954995,70.0,737665.0,0.626584
-6_fdiv_d_s,,,,,
-6_fdiv_s_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-6_fmul_d_s,,,,,
-6_fmul_s_s,,,,,
-6_fsub_d_s,,,,,
-6_fsub_s_s,1911853000.0,0.549586,351.0,3823708.0,0.662531
-7_fadd_d_s,,,,,
-7_fadd_s_s,368830500.0,0.954996,70.0,737663.0,0.626582
-7_fdiv_d_s,,,,,
-7_fdiv_s_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-7_fmul_d_s,,,,,
-7_fmul_s_s,,,,,
-7_fsub_d_s,,,,,
-7_fsub_s_s,1911000000.0,0.549592,351.0,3822002.0,0.662236
-8_fadd_d_s,,,,,
-8_fadd_s_s,,,,,
-8_fdiv_d_s,,,,,
-8_fdiv_s_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-8_fmul_d_s,,,,,
-8_fmul_s_s,,,,,
-8_fsub_d_s,,,,,
-8_fsub_s_s,1911947000.0,0.549579,351.0,3823896.0,0.662564
-9_fcvt_l_d_s,,,,,
-9_fcvt_l_s_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-9_fcvt_lu_d_s,,,,,
-9_fcvt_lu_s_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-9_fcvt_w_d_s,,,,,
-9_fcvt_w_s_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
-9_fcvt_wu_d_s,,,,,
-9_fcvt_wu_s_s,1922140000.0,0.549562,351.0,3844282.0,0.666096
+name,simTicks,branchPred.BTBHitRatio,btb.mispredict::total,cpu.numCycles,cpu.cpi,Spectre out,Error
+1_addi_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+1_addiw_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+1_andi_s,,,,,,No Output,Address issue
+1_beq_s,,,,,,No Output,Address issue
+1_bge_s,,,,,,No Output,Address issue
+1_bgeu_s,,,,,,No Output,Address issue
+1_blt_s,,,,,,No Output,Address issue
+1_bltu_s,,,,,,No Output,Address issue
+1_bne_s,,,,,,No Output,Address issue
+1_jalr_s,,,,,,No Output,Address issue
+1_ori_s,1602539500.0,0.499814,351.0,3205080.0,0.686995,BO,m5exit
+1_slti_s,49806500.0,0.578098,68.0,99614.0,1.625316,No Output,m5exit
+1_sltiu_s,49806500.0,0.578098,68.0,99614.0,1.625316,No Output,m5exit
+1_xori_s,1602539500.0,0.499814,351.0,3205080.0,0.686995,BO,m5exit
+2_slli_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+2_slliw_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+2_srai_s,1588353500.0,0.496025,311.0,3176708.0,0.686642,No Output,m5exit
+2_sraiw_s,1588353500.0,0.496025,311.0,3176708.0,0.686642,No Output,m5exit
+2_srli_s,1588353500.0,0.496025,311.0,3176708.0,0.686642,No Output,m5exit
+2_srliw_s,1588353500.0,0.496025,311.0,3176708.0,0.686642,No Output,m5exit
+3_fcvt_d_l_s,,,,,,No Output,Address issue
+3_fcvt_d_lu_s,,,,,,No Output,Address issue
+3_fcvt_d_w_s,,,,,,No Output,Address issue
+3_fcvt_d_wu_s,,,,,,No Output,Address issue
+3_fcvt_s_l_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+3_fcvt_s_lu_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+3_fcvt_s_wu_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+4_fcvt_d_l_s,,,,,,No Output,Address issue
+4_fcvt_d_lu_s,,,,,,No Output,Address issue
+4_fcvt_d_w_s,,,,,,No Output,Address issue
+4_fcvt_d_wu_s,,,,,,No Output,Address issue
+4_fcvt_s_l_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+4_fcvt_s_lu_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+4_fcvt_s_wu_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+5_fadd_d_s,,,,,,No Output,Address issue
+5_fadd_s_s,52742500.0,0.557804,68.0,105486.0,1.479882,No Output,Address issue
+5_fdiv_d_s,,,,,,No Output,Address issue
+5_fdiv_s_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+5_fmul_d_s,,,,,,No Output,Address issue
+5_fmul_s_s,,,,,,No Output,Address issue
+5_fsub_d_s,,,,,,No Output,Address issue
+5_fsub_s_s,1596113500.0,0.500129,460.0,3192228.0,0.684457,BO,m5exit
+6_fadd_d_s,,,,,,No Output,Address issue
+6_fadd_s_s,52742500.0,0.557804,68.0,105486.0,1.479882,No Output,Address issue
+6_fdiv_d_s,,,,,,No Output,Address issue
+6_fdiv_s_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+6_fmul_d_s,,,,,,No Output,Address issue
+6_fmul_s_s,,,,,,No Output,Address issue
+6_fsub_d_s,,,,,,No Output,Address issue
+6_fsub_s_s,1596113500.0,0.500129,460.0,3192228.0,0.684457,BO,m5exit
+7_fadd_d_s,,,,,,No Output,Address issue
+7_fadd_s_s,52742500.0,0.557804,68.0,105486.0,1.479882,No Output,Address issue
+7_fdiv_d_s,,,,,,No Output,Address issue
+7_fdiv_s_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+7_fmul_d_s,,,,,,No Output,Address issue
+7_fmul_s_s,,,,,,No Output,Address issue
+7_fsub_d_s,,,,,,No Output,Address issue
+7_fsub_s_s,1596113500.0,0.500129,460.0,3192228.0,0.684457,BO,m5exit
+8_fadd_d_s,,,,,,No Output,Address issue
+8_fadd_s_s,,,,,,No Output,Address issue
+8_fdiv_d_s,,,,,,No Output,Address issue
+8_fdiv_s_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+8_fmul_d_s,,,,,,No Output,Address issue
+8_fmul_s_s,,,,,,No Output,Address issue
+8_fsub_d_s,,,,,,No Output,Address issue
+8_fsub_s_s,1598998500.0,0.500125,460.0,3197998.0,0.685694,BO,m5exit
+9_fcvt_l_d_s,,,,,,No Output,Address issue
+9_fcvt_l_s_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+9_fcvt_lu_d_s,,,,,,No Output,Address issue
+9_fcvt_lu_s_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+9_fcvt_w_d_s,,,,,,No Output,Address issue
+9_fcvt_w_s_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+9_fcvt_wu_d_s,,,,,,No Output,Address issue
+9_fcvt_wu_s_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit

@@ -1,0 +1,1820 @@
+===============
+Running simulation for snippet_gen/binaries/1_addi_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:30:04
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 147211
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_addi_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 1_addi_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_addiw_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:30:21
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 148826
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_addiw_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 1_addiw_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_andi_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:30:38
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 150392
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_andi_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/1_andi_s
+Data for 1_andi_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_beq_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:31:09
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 152028
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_beq_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0xffffffffffffffc0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/1_beq_s
+Data for 1_beq_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_bge_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:31:40
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 153601
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_bge_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0xffffffffffffffc0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/1_bge_s
+Data for 1_bge_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_bgeu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:32:11
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 155153
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_bgeu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0xffffffffffffffc0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/1_bgeu_s
+Data for 1_bgeu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_blt_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:32:42
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 156661
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_blt_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/1_blt_s
+Data for 1_blt_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_bltu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:33:13
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 158311
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_bltu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/1_bltu_s
+Data for 1_bltu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_bne_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:33:44
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 159906
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_bne_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/1_bne_s
+Data for 1_bne_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_jalr_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:34:15
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 161519
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_jalr_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/1_jalr_s
+Data for 1_jalr_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_ori_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:34:46
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 163040
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_ori_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1602539500 because m5_exit instruction encountered
+Data for 1_ori_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_slti_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:35:02
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 164610
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_slti_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 49806500 because m5_exit instruction encountered
+Data for 1_slti_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_sltiu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:35:06
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 166076
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_sltiu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 49806500 because m5_exit instruction encountered
+Data for 1_sltiu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/1_xori_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:35:09
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 167554
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/1_xori_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1602539500 because m5_exit instruction encountered
+Data for 1_xori_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/2_slli_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:35:25
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 169030
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/2_slli_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 2_slli_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/2_slliw_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:35:41
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 170526
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/2_slliw_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 2_slliw_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/2_srai_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:35:57
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 172089
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/2_srai_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1588353500 because m5_exit instruction encountered
+Data for 2_srai_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/2_sraiw_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:36:12
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 173552
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/2_sraiw_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1588353500 because m5_exit instruction encountered
+Data for 2_sraiw_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/2_srli_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:36:28
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 175072
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/2_srli_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1588353500 because m5_exit instruction encountered
+Data for 2_srli_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/2_srliw_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:36:44
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 176633
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/2_srliw_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1588353500 because m5_exit instruction encountered
+Data for 2_srliw_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/3_fcvt_d_l_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:37:00
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 178165
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/3_fcvt_d_l_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/3_fcvt_d_l_s
+Data for 3_fcvt_d_l_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/3_fcvt_d_lu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:37:31
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 179756
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/3_fcvt_d_lu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/3_fcvt_d_lu_s
+Data for 3_fcvt_d_lu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/3_fcvt_d_w_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:38:02
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 181335
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/3_fcvt_d_w_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/3_fcvt_d_w_s
+Data for 3_fcvt_d_w_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/3_fcvt_d_wu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:38:34
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 182952
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/3_fcvt_d_wu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/3_fcvt_d_wu_s
+Data for 3_fcvt_d_wu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/3_fcvt_s_l_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:39:05
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 184588
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/3_fcvt_s_l_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 3_fcvt_s_l_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/3_fcvt_s_lu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:39:21
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 186107
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/3_fcvt_s_lu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 3_fcvt_s_lu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/3_fcvt_s_wu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:39:37
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 187631
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/3_fcvt_s_wu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 3_fcvt_s_wu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/4_fcvt_d_l_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:39:53
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 189138
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/4_fcvt_d_l_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/4_fcvt_d_l_s
+Data for 4_fcvt_d_l_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/4_fcvt_d_lu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:40:24
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 190761
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/4_fcvt_d_lu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/4_fcvt_d_lu_s
+Data for 4_fcvt_d_lu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/4_fcvt_d_w_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:40:55
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 192360
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/4_fcvt_d_w_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/4_fcvt_d_w_s
+Data for 4_fcvt_d_w_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/4_fcvt_d_wu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:41:26
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 193991
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/4_fcvt_d_wu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/4_fcvt_d_wu_s
+Data for 4_fcvt_d_wu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/4_fcvt_s_l_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:41:57
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 195624
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/4_fcvt_s_l_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 4_fcvt_s_l_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/4_fcvt_s_lu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:42:13
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 197183
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/4_fcvt_s_lu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 4_fcvt_s_lu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/4_fcvt_s_wu_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:42:29
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 198693
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/4_fcvt_s_wu_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 4_fcvt_s_wu_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/5_fadd_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:42:45
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 200262
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/5_fadd_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/5_fadd_d_s
+Data for 5_fadd_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/5_fadd_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:43:16
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 201861
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/5_fadd_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Exiting @ tick 52742500 because m5_exit instruction encountered
+Data for 5_fadd_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/5_fdiv_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:43:19
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 203310
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/5_fdiv_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/5_fdiv_d_s
+Data for 5_fdiv_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/5_fdiv_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:43:50
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 204900
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/5_fdiv_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 5_fdiv_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/5_fmul_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:44:06
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 206438
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/5_fmul_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/5_fmul_d_s
+Data for 5_fmul_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/5_fmul_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:44:37
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 207982
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/5_fmul_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/5_fmul_s_s
+Data for 5_fmul_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/5_fsub_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:45:08
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 209559
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/5_fsub_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/5_fsub_d_s
+Data for 5_fsub_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/5_fsub_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:45:39
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 211662
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/5_fsub_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1596113500 because m5_exit instruction encountered
+Data for 5_fsub_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/6_fadd_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:45:51
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 213415
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/6_fadd_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/6_fadd_d_s
+Data for 6_fadd_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/6_fadd_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:46:22
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 215169
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/6_fadd_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Exiting @ tick 52742500 because m5_exit instruction encountered
+Data for 6_fadd_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/6_fdiv_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:46:25
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 216743
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/6_fdiv_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/6_fdiv_d_s
+Data for 6_fdiv_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/6_fdiv_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:46:56
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 218454
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/6_fdiv_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 6_fdiv_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/6_fmul_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:47:07
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 220110
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/6_fmul_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/6_fmul_d_s
+Data for 6_fmul_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/6_fmul_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:47:39
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 221777
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/6_fmul_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/6_fmul_s_s
+Data for 6_fmul_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/6_fsub_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:48:10
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 223425
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/6_fsub_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/6_fsub_d_s
+Data for 6_fsub_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/6_fsub_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:48:41
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 225139
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/6_fsub_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1596113500 because m5_exit instruction encountered
+Data for 6_fsub_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/7_fadd_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:48:52
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 226775
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/7_fadd_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/7_fadd_d_s
+Data for 7_fadd_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/7_fadd_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:49:23
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 228526
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/7_fadd_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Exiting @ tick 52742500 because m5_exit instruction encountered
+Data for 7_fadd_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/7_fdiv_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:49:26
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 230128
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/7_fdiv_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/7_fdiv_d_s
+Data for 7_fdiv_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/7_fdiv_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:49:57
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 231849
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/7_fdiv_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 7_fdiv_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/7_fmul_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:50:09
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 233564
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/7_fmul_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/7_fmul_d_s
+Data for 7_fmul_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/7_fmul_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:50:40
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 235339
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/7_fmul_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/7_fmul_s_s
+Data for 7_fmul_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/7_fsub_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:51:11
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 237043
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/7_fsub_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/7_fsub_d_s
+Data for 7_fsub_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/7_fsub_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:51:42
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 238786
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/7_fsub_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1596113500 because m5_exit instruction encountered
+Data for 7_fsub_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/8_fadd_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:51:53
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 240446
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/8_fadd_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/8_fadd_d_s
+Data for 8_fadd_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/8_fadd_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:52:25
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 242162
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/8_fadd_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/8_fadd_s_s
+Data for 8_fadd_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/8_fdiv_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:52:56
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 243885
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/8_fdiv_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/8_fdiv_d_s
+Data for 8_fdiv_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/8_fdiv_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:53:27
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 245603
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/8_fdiv_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 8_fdiv_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/8_fmul_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:53:38
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 247287
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/8_fmul_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/8_fmul_d_s
+Data for 8_fmul_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/8_fmul_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:54:10
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 248847
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/8_fmul_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/8_fmul_s_s
+Data for 8_fmul_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/8_fsub_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:54:40
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 250476
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/8_fsub_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/8_fsub_d_s
+Data for 8_fsub_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/8_fsub_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:55:11
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 252380
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/8_fsub_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1598998500 because m5_exit instruction encountered
+Data for 8_fsub_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/9_fcvt_l_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:55:23
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 254057
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/9_fcvt_l_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0x8000000080002300 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/9_fcvt_l_d_s
+Data for 9_fcvt_l_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/9_fcvt_l_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:55:54
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 255694
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/9_fcvt_l_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 9_fcvt_l_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/9_fcvt_lu_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:56:06
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 257454
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/9_fcvt_lu_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/9_fcvt_lu_d_s
+Data for 9_fcvt_lu_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/9_fcvt_lu_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:56:37
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 259288
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/9_fcvt_lu_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 9_fcvt_lu_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/9_fcvt_w_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:56:48
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 261039
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/9_fcvt_w_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0x100002300 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/9_fcvt_w_d_s
+Data for 9_fcvt_w_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/9_fcvt_w_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:57:19
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 262805
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/9_fcvt_w_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 9_fcvt_w_s_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/9_fcvt_wu_d_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:57:31
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 264464
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/9_fcvt_wu_d_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+src/cpu/o3/fetch.cc:603: warn: Address 0 is outside of physical memory, stopping fetch
+Timeout occurred for snippet_gen/binaries/9_fcvt_wu_d_s
+Data for 9_fcvt_wu_d_s has been updated in ./stats_data.csv.
+***************
+===============
+Running simulation for snippet_gen/binaries/9_fcvt_wu_s_s...
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: system.platform.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.platform.terminal: Listening for connections on port 3456
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.0
+gem5 compiled Dec  9 2024 21:32:23
+gem5 started Dec 20 2024 22:58:02
+gem5 executing on kislay-arya-ASUS-TUF-Gaming-F15-FX506HC-FX506HC, pid 266162
+command line: ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel snippet_gen/binaries/9_fcvt_wu_s_s --bare --cpu-type=O3CPU --caches --l2cache
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+      0: system.platform.terminal: attach terminal 0
+Exiting @ tick 1606351500 because m5_exit instruction encountered
+Data for 9_fcvt_wu_s_s has been updated in ./stats_data.csv.
+***************
