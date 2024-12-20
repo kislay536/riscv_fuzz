@@ -9,13 +9,16 @@ BIN_OUTPUT = $(SPECTRE)/bin
 all:
 
 clean_bin:
-	@rm -rf m5out
-	@rm -rf snippet_gen/binaries
-	@rm -rf snippet_gen/snippets
+	@if [ -d "m5out" ]; then rm -rf m5out; fi
+	@if [ -d "snippet_gen/binaries" ]; then rm -rf snippet_gen/binaries; fi
+	@if [ -d "snippet_gen/snippets" ]; then rm -rf snippet_gen/snippets; fi
 	@make -C spectre clean
-	@rm stats_data.csv
-	@rm simul_output.txt
-	@rm terminal_output.txt
+	@if [ -f "stats_data.csv" ]; then rm stats_data.csv; fi
+	@if [ -f "simul_output.txt" ]; then rm simul_output.txt; fi
+	@if [ -f "terminal_output.txt" ]; then rm terminal_output.txt; fi
+	@sleep 1
+	@clear
+
 
 # Rule to check and create directories
 check_dirs:
@@ -31,18 +34,18 @@ check_dirs:
 # ASM target to run the Python script
 asm: check_dirs
 	@if [ -z "$(line)" ]; then \
-		cd $(SNIPPET_GEN) && python3 opcode_fuzz.py 1; \
-		python3 opcode_fuzz.py 2; \
-		python3 opcode_fuzz.py 3; \
-		python3 opcode_fuzz.py 4; \
-		python3 opcode_fuzz.py 5; \
-		python3 opcode_fuzz.py 6; \
-		python3 opcode_fuzz.py 7; \
-		python3 opcode_fuzz.py 8; \
-		python3 opcode_fuzz.py 9; \
+		cd $(SNIPPET_GEN) && python3 opcode_replacement.py 1; \
+		python3 opcode_replacement.py 2; \
+		python3 opcode_replacement.py 3; \
+		python3 opcode_replacement.py 4; \
+		python3 opcode_replacement.py 5; \
+		python3 opcode_replacement.py 6; \
+		python3 opcode_replacement.py 7; \
+		python3 opcode_replacement.py 8; \
+		python3 opcode_replacement.py 9; \
 		echo "done !"; \
 	else \
-		cd $(SNIPPET_GEN) && python3 opcode_fuzz.py $(line); \
+		cd $(SNIPPET_GEN) && python3 opcode_replacement.py $(line); \
 	fi
 
 # Compile target
