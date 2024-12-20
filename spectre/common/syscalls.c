@@ -68,7 +68,7 @@ void __attribute__((noreturn)) tohost_exit(uintptr_t code)
   tohost = (code << 1) | 1;
   
   // Simple delay loop for approximately 2 seconds
-  volatile uint64_t i, delay_cycles = 160000; // Adjust based on your system clock
+  volatile uint64_t i, delay_cycles = 2000; // Adjust based on your system clock
   for (i = 0; i < delay_cycles; i++)
     __asm__ __volatile__ ("nop");
 

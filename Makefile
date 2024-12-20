@@ -13,6 +13,9 @@ clean_bin:
 	@rm -rf snippet_gen/binaries
 	@rm -rf snippet_gen/snippets
 	@make -C spectre clean
+	@rm stats_data.csv
+	@rm simul_output.txt
+	@rm terminal_output.txt
 
 # Rule to check and create directories
 check_dirs:
@@ -74,24 +77,40 @@ print:
 	done
 
 sim:
+	@if [ -f simul_output.txt ]; then \
+		echo "Found simul_output.txt. Deleting it..."; \
+		rm simul_output.txt; \
+	fi
+	@if [ -f simul_output.txt ]; then \
+		echo "Found stats_data.csv. Deleting it..."; \
+		rm stats_data.csv; \
+	fi
 	@for binary in $(wildcard $(BINARIES)/*); do \
+		echo "==============="; \
 		echo "Running simulation for $$binary..."; \
-		timeout 30s ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel $$binary --bare --cpu-type=O3CPU --caches --l2cache; \
+		timeout 30s ../gem5/build/RISCV/gem5.opt ../gem5/configs/example/riscv/fs_linux.py --kernel $$binary --bare --cpu-type=O3CPU --caches --l2cache 2>&1; \
 		if [ $$? -eq 124 ]; then \
 			echo "Timeout occurred for $$binary"; \
 		fi; \
 		python3 ./snippet_gen/stats_reader.py $$(basename $$binary); \
 		sleep 1; \
 		rm -f ./m5out/stats.txt; \
-	done
+		echo "***************"; \
+	done | tee -a simul_output.txt
+
 
 connect:
+	@if [ -f terminal_output.txt ]; then \
+		echo "Found terminal_output.txt. Deleting it..."; \
+		rm terminal_output.txt; \
+	fi
 	@echo "Starting infinite loop. Use Ctrl+C to stop."
 	@while true; do \
 		echo "Running the command..."; \
 		./../gem5/util/term/m5term localhost 3456; \
-		sleep 1; \
-	done
+		sleep 0.001; \
+	done | tee -a terminal_output.txt
+
 
 start:
 	@echo "Starting infinite loop. Use Ctrl+C to stop."
