@@ -89,7 +89,7 @@ int main(void){
         attackIdx++;
     }    
     
-    guessedSecret[SECRET_SZ] = 0;
+    guessedSecret[SECRET_SZ-1] = 0;
     
     printf("The guessed secret is %s\n", guessedSecret);
    

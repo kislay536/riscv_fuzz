@@ -1,0 +1,4 @@
+Type,number_regs,imm/shamt,aqrl/rm,Opcode,rd,rs1,rs2,rs3,pred,succ
+B1,1,imm,,jal,rd,,,,,
+B2,1,imm,,lui,rd,,,,,
+B3,1,imm,,auipc,rd,,,,,

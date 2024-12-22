@@ -1,0 +1,9 @@
+Type,number_regs,imm/shamt,aqrl/rm,Opcode,rd,rs1,rs2,rs3,pred,succ
+J1,4,,rm,fmadd.s,rd,rs1,rs2,rs3,,
+J2,4,,rm,fmsub.s,rd,rs1,rs2,rs3,,
+J3,4,,rm,fnmsub.s,rd,rs1,rs2,rs3,,
+J4,4,,rm,fnmadd.s,rd,rs1,rs2,rs3,,
+J5,4,,rm,fmadd.d,rd,rs1,rs2,rs3,,
+J6,4,,rm,fmsub.d,rd,rs1,rs2,rs3,,
+J7,4,,rm,fnmsub.d,rd,rs1,rs2,rs3,,
+J8,4,,rm,fnmadd.d,rd,rs1,rs2,rs3,,

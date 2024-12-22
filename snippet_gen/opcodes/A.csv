@@ -1,0 +1,5 @@
+Type,number_regs,imm/shamt,aqrl/rm,Opcode,rd,rs1,rs2,rs3,pred,succ
+A1,0,,,fence,,,,,pred,succ
+A2,0,,,fence.i,,,,,,
+A3,0,,,ecall,,,,,,
+A4,0,,,ebreak,,,,,,

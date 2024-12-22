@@ -1,0 +1,7 @@
+name,simTicks,branchPred.BTBHitRatio,btb.mispredict::total,cpu.numCycles,cpu.cpi,Spectre out,Error
+2_slli_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+2_slliw_s,1606351500.0,0.500114,460.0,3212704.0,0.688847,BO,m5exit
+2_srai_s,1588353500.0,0.496025,311.0,3176708.0,0.686642,No Output,m5exit
+2_sraiw_s,1588353500.0,0.496025,311.0,3176708.0,0.686642,No Output,m5exit
+2_srli_s,1588353500.0,0.496025,311.0,3176708.0,0.686642,No Output,m5exit
+2_srliw_s,1588353500.0,0.496025,311.0,3176708.0,0.686642,No Output,m5exit
